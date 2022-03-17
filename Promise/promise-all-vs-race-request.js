@@ -32,10 +32,10 @@ const f3 = async(ctx, ms) =>  {
 
   str += 'f3()'
   return 'f3() api=' + api + ',' + 'ctx=' + ctx
-  return new Promise(resolve => {
-      str += 'f3()'
-      resolve('f3() api=' + api + ',' + 'ctx=' + ctx)
-  })
+  // return new Promise(resolve => {
+  //     str += 'f3()'
+  //     resolve('f3() api=' + api + ',' + 'ctx=' + ctx)
+  // })
   // equals
   // return 'f3() api=' + api + ',' + 'ctx=' + ctx
 }
